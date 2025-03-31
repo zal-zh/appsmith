@@ -156,6 +156,7 @@
     }
   ],
   "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [],
   "dynamicTriggerPathList": [
     {
       "key": "onTabSelected"
@@ -175,7 +176,7 @@
   "mobileRightColumn": 19,
   "mobileTopRow": 23,
   "needsErrorInfo": false,
-  "onTabSelected": "{{postWindowMessage(\"\", \"window\", \"*\");}}",
+  "onTabSelected": "{{JSObject1.tabClick();}}",
   "originalBottomRow": 26,
   "originalTopRow": 22,
   "parentColumnSpace": 30.5625,
