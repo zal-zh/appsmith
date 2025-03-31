@@ -1,6 +1,6 @@
 {
   "gitSyncId": "67e6554c5db6065bb0afb08f_a0e3f000-153d-4c6f-b797-73da1facb73b",
-  "id": "财务充电站_JSObject1.myFun1",
+  "id": "财务充电站_JSObject1.saveFormData",
   "pluginId": "js-plugin",
   "pluginType": "JS",
   "unpublishedAction": {
@@ -23,8 +23,8 @@
       }
     ],
     "executeOnLoad": false,
-    "fullyQualifiedName": "JSObject1.myFun1",
-    "name": "myFun1",
+    "fullyQualifiedName": "JSObject1.saveFormData",
+    "name": "saveFormData",
     "pageId": "财务充电站",
     "userSetOnLoad": false
   }

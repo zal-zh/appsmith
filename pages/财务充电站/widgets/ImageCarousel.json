@@ -3,7 +3,7 @@
   "borderColor": "#E0DEDE",
   "borderRadius": "0px",
   "borderWidth": "0",
-  "bottomRow": 54,
+  "bottomRow": 48,
   "boxShadow": "none",
   "defaultModel": "{\n\t\"images\": [{\n\t\t\t\"url\": \"http://landingpage-1304468848.cos.ap-beijing.myqcloud.com/zq2023/cc3487bd-570a-4e5a-a835-1dec1415845a%E8%90%BD%E5%9C%B0%E9%A1%B5banner.jpg\",\n\t\t\t\"clickUrl\": \"https://work.weixin.qq.com/ca/cawcde4d453a8ae728?customer_channel=link-3743-#%E8%8E%B7%E5%AE%A2%E6%89%8B%E6%9C%BA%E5%8F%B7#\"\n\t\t},\n\t\t{\n\t\t\t\"url\": \"http://landingpage-1304468848.cos.ap-beijing.myqcloud.com/zq2023/bb9c085c-3765-424e-b048-c43d930c6e7a%E6%96%B0%E5%BB%BA%20Microsoft%20PowerPoint%20%E6%BC%94%E7%A4%BA%E6%96%87%E7%A8%BF.jpg\",\n\t\t\t\"clickUrl\": \"https://work.weixin.qq.com/ca/cawcde4d453a8ae728?customer_channel=link-3743-#%E8%8E%B7%E5%AE%A2%E6%89%8B%E6%9C%BA%E5%8F%B7#\"\n\t\t}\n\t]\n}",
   "dynamicBindingPathList": [
@@ -39,8 +39,8 @@
   "mobileTopRow": 62,
   "needsErrorInfo": false,
   "onOpenPage": "{{navigateTo(ImageCarousel.model.clickUrl, {}, 'NEW_WINDOW');}}",
-  "originalBottomRow": 54,
-  "originalTopRow": 10,
+  "originalBottomRow": 48,
+  "originalTopRow": 4,
   "parentColumnSpace": 14.609375,
   "parentId": "0",
   "parentRowSpace": 10,
@@ -53,7 +53,7 @@
     "js": "appsmith.onReady(() => {\n  /*\n   * This handler function will get called when parent application is ready.\n   * Initialize your component here\n   * more info - https://docs.appsmith.com/reference/widgets/custom#onready\n   */\n  new Vue({\n    el: \"#app\",\n    data() {\n      return {\n        currentIndex: 0,\n        images: appsmith.model.images\n      };\n    },\n    mounted() {\n      console.log('images', this.images);\n      var mySwiper = new Swiper('.swiper', {\n        autoplay: true,\n        //可选选项，自动滑动\n        grabCursor: true,\n        pagination: {\n          el: '.swiper-pagination'\n        },\n        navigation: {\n          nextEl: '.swiper-button-next',\n          prevEl: '.swiper-button-prev'\n        }\n      });\n    },\n    methods: {\n      openPage(data) {\n        if (data?.clickUrl) {\n          appsmith.updateModel({\n            clickUrl: data?.clickUrl\n          });\n          appsmith.triggerEvent(\"onOpenPage\");\n        }\n      }\n    }\n  });\n});"
   },
   "theme": "{{appsmith.theme}}",
-  "topRow": 10,
+  "topRow": 4,
   "type": "CUSTOM_WIDGET",
   "uncompiledSrcDoc": {
     "css": "body {\n\tmargin: 0;\n\tbox-sizing: border-box;\n\toverflow: hidden;\n}\n* {\n  box-sizing: border-box;\n}\n#app {\n\theight: auto;\n\twidth: 100%;\n\tmax-width: 80%;\n\tmargin: 0 auto;\n\tjustify-content: center;\n\tpadding: 0;\n\tbox-sizing: border-box;\n\tfont-family: system-ui;\n\tbackground: transparent;\n}\n.swiper {\n\theight: 100%;\n}\n.swiper-wrapper {\n\theight: 100%;\n}\n.swiper-slide {\n\theight: 100%;\n}\n.swiper-slide img {\n\twidth: 100%;\n\theight: auto;\n\tobject-fit: contain;\n}\n.swiper{\n\t--swiper-theme-color: #FFFFFF;/* 设置Swiper风格 */\n\t--swiper-navigation-color: #FFFFFF;/* 单独设置按钮颜色 */\n\t--swiper-navigation-size: 30px;/* 设置按钮大小 */\n}",
