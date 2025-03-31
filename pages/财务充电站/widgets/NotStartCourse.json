@@ -1,0 +1,69 @@
+{
+  "backgroundColor": "transparent",
+  "borderColor": "#E0DEDE",
+  "borderRadius": "0px",
+  "borderWidth": "0",
+  "bottomRow": 196,
+  "boxShadow": "none",
+  "defaultModel": "{\n\t\"list\": [{\n\t\t\t\"title\": \"成本穿透如何揭开真实成本之谜？\",\n\t\t\t\"time\": \"10/09 14:00-14:30\",\n\t\t\t\"descList\": [\n\t\t\t\t\"企业为什么要做穿透成本\",\n\t\t\t\t\"如何实现集团穿透成本\"\n\t\t\t],\n\t\t\t\"imgUrl\": \"http://landingpage-1304468848.cos.ap-beijing.myqcloud.com/zq2023/332eb3f5-4db4-42db-bf34-ae535eccdd6a1.jpg?imageMogr2/format/webp\",\n\t\t\t\"clickUrl\": \"https://app.ma.scrmtech.com/meetings/MeetingPc/Detail?pf_uid=12451_1532&sid=97607&source=2&pf_type=3&lang=zh-CN&id=97607\"\n\t\t},\n\t\t{\n\t\t\t\"title\": \"深入剖析项目成本构成\",\n\t\t\t\"time\": \"10/16 14:00-14:30\",\n\t\t\t\"descList\": [\n\t\t\t\t\"剖析项目成本构成\",\n\t\t\t\t\"按履约进度确认项目收入与成本\"\n\t\t\t],\n\t\t\t\"imgUrl\": \"http://landingpage-1304468848.cos.ap-beijing.myqcloud.com/zq2023/c798c7f8-4ae2-4ebf-8f28-0f55282f14772.jpg?imageMogr2/format/webp\",\n\t\t\t\"clickUrl\": \"https://app.ma.scrmtech.com/meetings/MeetingPc/Detail?pf_uid=12451_1532&sid=97608&source=2&pf_type=3&lang=zh-CN&id=97608\"\n\t\t},\n\t\t{\n\t\t\t\"title\": \"如何实现研发费用精准核算？\",\n\t\t\t\"time\": \"10/23 14:00-14:30\",\n\t\t\t\"descList\": [\n\t\t\t\t\"研发费用政策解读\",\n\t\t\t\t\"ERP如何实现研发费用管理\"\n\t\t\t],\n\t\t\t\"imgUrl\": \"http://landingpage-1304468848.cos.ap-beijing.myqcloud.com/zq2023/cb7d89b6-240a-4c72-a541-7d61ae7030333.jpg?imageMogr2/format/webp\",\n\t\t\t\"clickUrl\": \"https://app.ma.scrmtech.com/meetings/MeetingPc/Detail?pf_uid=12451_1532&sid=97609&source=2&pf_type=3&lang=zh-CN&id=97609\"\n\t\t},\n\t\t{\n\t\t\t\"title\": \"如何开始设计你的财务管报体系？\",\n\t\t\t\"time\": \"10/30 14:00-15:00\",\n\t\t\t\"descList\": [\n\t\t\t\t\"管理报表分析的设计蓝图分享\",\n\t\t\t\t\"全面预算管理下的系统化落地蓝图\",\n\t\t\t\t\"各个预算财务模型设计分享\"\n\t\t\t],\n\t\t\t\"imgUrl\": \"http://landingpage-1304468848.cos.ap-beijing.myqcloud.com/zq2023/d1c058ba-42a5-45e8-ad86-ee333c4724cd4.jpg?imageMogr2/format/webp\",\n\t\t\t\"clickUrl\": \"https://app.ma.scrmtech.com/meetings/MeetingPc/Detail?pf_uid=12451_1532&sid=97610&source=2&pf_type=3&lang=zh-CN&id=97610\"\n\t\t}\n\t]\n}",
+  "dynamicBindingPathList": [
+    {
+      "key": "theme"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "backgroundColor"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onOpenPage"
+    }
+  ],
+  "events": [
+    "onOpenPage"
+  ],
+  "isCanvas": false,
+  "isLoading": false,
+  "isSearchWildcard": true,
+  "isVisible": true,
+  "key": "se80stnrdl",
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "mobileBottomRow": 92,
+  "mobileLeftColumn": 17,
+  "mobileRightColumn": 26,
+  "mobileTopRow": 62,
+  "needsErrorInfo": false,
+  "onOpenPage": "{{navigateTo(ImageCarousel.model.clickUrl, {}, 'NEW_WINDOW');}}",
+  "originalBottomRow": 196,
+  "originalTopRow": 59,
+  "parentColumnSpace": 14.609375,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 64,
+  "shouldScrollContents": true,
+  "srcDoc": {
+    "css": "body {\n  margin: 0;\n  box-sizing: border-box;\n  overflow: hidden;\n}\n\n* {\n  box-sizing: border-box;\n}\n\n#app {\n  height: auto;\n  width: 100%;\n  justify-content: center;\n  padding: 0;\n  box-sizing: border-box;\n  font-family: system-ui;\n  background: transparent;\n}\n\n.list-content {\n  width: 100%;\n  height: auto;\n  background-color: rgb(248, 250, 252);\n  padding: 30px 0;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: flex-start;\n}\n\n.list-cell {\n  width: 100%;\n  max-width: 80%;\n  height: auto;\n  padding: 20px 30px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  background-color: #FFFFFF;\n  border-radius: 25px;\n  box-shadow: rgba(0, 0, 0, 0.1) 0 1px 3px 0, rgba(0, 0, 0, 0.06) 0 1px 2px 0 !important;\n}\n\n.list-cell + .list-cell {\n  margin-top: 30px;\n}\n\n.list-cell-left {\n  width: calc((100% - 30px) / 2);\n  height: auto;\n}\n\n.list-cell-left img {\n  width: 100%;\n  border-radius: 25px;\n}\n\n.list-cell-right {\n  width: calc((100% - 30px) / 2);\n  height: auto;\n  margin-left: 30px;\n  display: flex;\n  flex-direction: column;\n  align-items: flex-start;\n  justify-content: center;\n}\n\n.time-text {\n  font-size: 20px;\n  color: #0066FF;\n  margin-bottom: 10px;\n  text-align: left;\n}\n\n.title-text {\n  font-size: 24px;\n  color: #333333;\n  margin-bottom: 24px;\n  text-align: left;\n}\n\n.desc-content {\n  width: 100%;\n  height: auto;\n  margin-bottom: 30px;\n  display: flex;\n  flex-direction: column;\n  align-items: flex-start;\n  justify-content: flex-start;\n}\n\n.desc-cell {\n  font-size: 14px;\n  color: #313131;\n  text-align: left;\n}\n\n.view-btn {\n  width: 100%;\n  height: 40px;\n  border-radius: 25px;\n  background-color: rgb(74, 144, 226);\n  font-size: 14px;\n  color: #FFFFFF;\n  line-height: 40px;\n  text-align: center;\n  cursor: pointer;\n}",
+    "html": "<div id=\"app\">\n<div class=\"list-content\">\n    <div class=\"list-cell\" v-for=\"item in list\" :key=\"item.title\">\n      <div class=\"list-cell-left\">\n        <img :src=\"item.imgUrl\" alt=\"\" srcset=\"\">\n      </div>\n      <div class=\"list-cell-right\">\n        <div class=\"time-text\">{{ item.time }}</div>\n        <div class=\"title-text\">{{ item.title }}</div>\n        <div class=\"desc-content\">\n          <div class=\"desc-cell\" v-for=\"descItem in item?.descList\" :key=\"descItem\"><strong>· </strong>{{ descItem }}</div>\n        </div>\n        <div class=\"view-btn\" @click=\"viewDetail(item)\">立即查看</div>\n      </div>\n    </div>\n  </div>\n</div>\n<script src=\"//cdnjs.cloudflare.com/ajax/libs/vue/2.7.16/vue.min.js\"></script>",
+    "js": "appsmith.onReady(() => {\n  /*\n   * This handler function will get called when parent application is ready.\n   * Initialize your component here\n   * more info - https://docs.appsmith.com/reference/widgets/custom#onready\n   */\n  new Vue({\n    el: \"#app\",\n    data() {\n      return {\n        list: appsmith.model.list\n      };\n    },\n    mounted() {\n      console.log('list', this.list);\n    },\n    methods: {\n      viewDetail(data) {\n        if (data?.clickUrl) {\n          window.open(data.clickUrl);\n        }\n      }\n    }\n  });\n});"
+  },
+  "theme": "{{appsmith.theme}}",
+  "topRow": 59,
+  "type": "CUSTOM_WIDGET",
+  "uncompiledSrcDoc": {
+    "css": "body {\n\tmargin: 0;\n\tbox-sizing: border-box;\n\toverflow: hidden;\n}\n* {\n  box-sizing: border-box;\n}\n#app {\n\theight: auto;\n\twidth: 100%;\n\tjustify-content: center;\n\tpadding: 0;\n\tbox-sizing: border-box;\n\tfont-family: system-ui;\n\tbackground: transparent;\n}\n.list-content {\n\twidth: 100%;\n\theight: auto;\n\tbackground-color: rgb(248, 250, 252);\n\tpadding: 30px 0;\n\tdisplay: flex;\n\tflex-direction: column;\n\talign-items: center;\n\tjustify-content: flex-start;\n}\n.list-cell {\n\twidth: 100%;\n\tmax-width: 80%;\n\theight: auto;\n\tpadding: 20px 30px;\n\tdisplay: flex;\n\talign-items: center;\n\tjustify-content: center;\n\tbackground-color: #FFFFFF;\n\tborder-radius: 25px;\n\tbox-shadow: rgba(0, 0, 0, 0.1) 0 1px 3px 0, rgba(0, 0, 0, 0.06) 0 1px 2px 0 !important;\n}\n.list-cell + .list-cell {\n\tmargin-top: 30px;\n}\n.list-cell-left {\n\twidth: calc((100% - 30px) / 2);\n\theight: auto;\n}\n.list-cell-left img {\n\twidth: 100%;\n\tborder-radius: 25px;\n}\n.list-cell-right {\n\twidth: calc((100% - 30px) / 2);\n\theight: auto;\n\tmargin-left: 30px;\n\tdisplay: flex;\n\tflex-direction: column;\n\talign-items: flex-start;\n\tjustify-content: center;\n}\n.time-text {\n\tfont-size: 20px;\n\tcolor: #0066FF;\n\tmargin-bottom: 10px;\n\ttext-align: left;\n}\n.title-text {\n\tfont-size: 24px;\n\tcolor: #333333;\n\tmargin-bottom: 24px;\n\ttext-align: left;\n}\n.desc-content {\n\twidth: 100%;\n\theight: auto;\n\tmargin-bottom: 30px;\n\tdisplay: flex;\n\tflex-direction: column;\n\talign-items: flex-start;\n\tjustify-content: flex-start;\n}\n.desc-cell {\n\tfont-size: 14px;\n\tcolor: #313131;\n\ttext-align: left;\n}\n.view-btn {\n\twidth: 100%;\n\theight: 40px;\n\tborder-radius: 25px;\n\tbackground-color: rgb(74,144,226);\n\tfont-size: 14px;\n\tcolor: #FFFFFF;\n\tline-height: 40px;\n\ttext-align: center;\n\tcursor: pointer;\n}",
+    "html": "<div id=\"app\">\n<div class=\"list-content\">\n    <div class=\"list-cell\" v-for=\"item in list\" :key=\"item.title\">\n      <div class=\"list-cell-left\">\n        <img :src=\"item.imgUrl\" alt=\"\" srcset=\"\">\n      </div>\n      <div class=\"list-cell-right\">\n        <div class=\"time-text\">{{ item.time }}</div>\n        <div class=\"title-text\">{{ item.title }}</div>\n        <div class=\"desc-content\">\n          <div class=\"desc-cell\" v-for=\"descItem in item?.descList\" :key=\"descItem\"><strong>· </strong>{{ descItem }}</div>\n        </div>\n        <div class=\"view-btn\" @click=\"viewDetail(item)\">立即查看</div>\n      </div>\n    </div>\n  </div>\n</div>\n<script src=\"//cdnjs.cloudflare.com/ajax/libs/vue/2.7.16/vue.min.js\"></script>",
+    "js": "appsmith.onReady(() => {\n\t/*\n\t * This handler function will get called when parent application is ready.\n\t * Initialize your component here\n\t * more info - https://docs.appsmith.com/reference/widgets/custom#onready\n\t */\n\tnew Vue({\n\t\tel: \"#app\",\n\t\tdata() {\n\t\t\treturn {\n\t\t\t\tlist: appsmith.model.list,\n\t\t\t};\n\t\t},\n\t\tmounted() {\n\t\t\tconsole.log('list', this.list);\n\t\t},\n\t\tmethods: {\n\t\t\tviewDetail(data) {\n      if (data?.clickUrl) {\n        window.open(data.clickUrl)\n      }\n    }\n\t\t},\n\t});\n});"
+  },
+  "version": 1,
+  "widgetId": "nw7b9h57c6",
+  "widgetName": "NotStartCourse"
+}

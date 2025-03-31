@@ -1,0 +1,20 @@
+{
+  "gitSyncId": "67e6554c5db6065bb0afb08f_b41136b6-fc66-4842-8b9b-5f73a9953251",
+  "id": "财务充电站_JSObject1",
+  "unpublishedCollection": {
+    "name": "JSObject1",
+    "pageId": "财务充电站",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ]
+  }
+}
