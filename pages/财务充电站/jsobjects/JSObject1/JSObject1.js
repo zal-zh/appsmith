@@ -1,7 +1,5 @@
 export default {
 	saveFormData: async () => {
-		const data = JSONForm1.formData;
-		console.log('data', data);
-		console.log(appsmith.URL)
+		formJson.setText(appsmith.URL.fullPath + '\n' + JSON.stringify(JSONForm1.formData));
 	}
 }
