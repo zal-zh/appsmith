@@ -3,7 +3,7 @@
   "borderColor": "#E0DEDE",
   "borderRadius": "0px",
   "borderWidth": "0",
-  "bottomRow": 53,
+  "bottomRow": 31,
   "boxShadow": "none",
   "defaultModel": "{\n\t\"images\": [{\n\t\t\t\"url\": \"http://landingpage-1304468848.cos.ap-beijing.myqcloud.com/zq2023/cc3487bd-570a-4e5a-a835-1dec1415845a%E8%90%BD%E5%9C%B0%E9%A1%B5banner.jpg\",\n\t\t\t\"clickUrl\": \"https://work.weixin.qq.com/ca/cawcde4d453a8ae728?customer_channel=link-3743-#%E8%8E%B7%E5%AE%A2%E6%89%8B%E6%9C%BA%E5%8F%B7#\"\n\t\t},\n\t\t{\n\t\t\t\"url\": \"http://landingpage-1304468848.cos.ap-beijing.myqcloud.com/zq2023/bb9c085c-3765-424e-b048-c43d930c6e7a%E6%96%B0%E5%BB%BA%20Microsoft%20PowerPoint%20%E6%BC%94%E7%A4%BA%E6%96%87%E7%A8%BF.jpg\",\n\t\t\t\"clickUrl\": \"https://work.weixin.qq.com/ca/cawcde4d453a8ae728?customer_channel=link-3743-#%E8%8E%B7%E5%AE%A2%E6%89%8B%E6%9C%BA%E5%8F%B7#\"\n\t\t}\n\t]\n}",
   "dynamicBindingPathList": [

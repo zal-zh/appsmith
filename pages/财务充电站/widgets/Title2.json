@@ -2,7 +2,7 @@
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "2",
-  "bottomRow": 200,
+  "bottomRow": 157,
   "disableLink": false,
   "dynamicBindingPathList": [
     {
@@ -51,7 +51,7 @@
   "text": "精选课程",
   "textAlign": "CENTER",
   "textColor": "#231F20",
-  "topRow": 195,
+  "topRow": 152,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
