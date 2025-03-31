@@ -1,4 +1,7 @@
 export default {
+	initData: () => {
+		postWindowMessage({ type: 'FIXED_TOP_FULL_WIDTH', class: 't--widget-header' }, 'window', "*");
+	},
 	saveFormData: async () => {
 		formJson.setText(appsmith.URL.fullPath + '\n' + JSON.stringify(JSONForm1.formData));
 	},
