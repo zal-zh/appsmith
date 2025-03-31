@@ -1,0 +1,49 @@
+{
+  "animateLoading": true,
+  "borderRadius": "1.5rem",
+  "bottomRow": 728,
+  "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": false,
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "isDefaultClickDisabled": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "itble704xx",
+  "leftColumn": 25,
+  "minWidth": 120,
+  "mobileBottomRow": 727,
+  "mobileLeftColumn": 23,
+  "mobileRightColumn": 39,
+  "mobileTopRow": 723,
+  "needsErrorInfo": false,
+  "onClick": "{{navigateTo('https://scrm-wx.weiling.cn/h5/monitorFile/index.html?corp_id=wpW2WmDAAAgJOUYVCqVx9t1Gg8XIVdjA&material_id=1876909217056051200&source_type=user&agent_id=1000015&type=7&event_id=1876916848960823296#/', {}, 'NEW_WINDOW');}}",
+  "originalBottomRow": 728,
+  "originalTopRow": 723,
+  "parentColumnSpace": 30.5625,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 38,
+  "text": "课程资料",
+  "topRow": 723,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "2je2u2thm9",
+  "widgetName": "Button3"
+}

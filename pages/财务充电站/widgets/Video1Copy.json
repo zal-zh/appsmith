@@ -1,0 +1,41 @@
+{
+  "animateLoading": true,
+  "autoPlay": false,
+  "backgroundColor": "#000",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 758,
+  "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "boxShadow"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "flexVerticalAlignment": "start",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "k80skzow5w",
+  "leftColumn": 22,
+  "mobileBottomRow": 744,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 21,
+  "mobileTopRow": 716,
+  "needsErrorInfo": false,
+  "originalBottomRow": 758,
+  "originalTopRow": 730,
+  "parentColumnSpace": 30.5625,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 42,
+  "topRow": 730,
+  "type": "VIDEO_WIDGET",
+  "url": "https://landingpage-video-1304468848.cos.ap-beijing.myqcloud.com/zq2023/fdc6509b-cc9e-40e0-8b63-14a836da71ce2.mp4",
+  "version": 1,
+  "widgetId": "tzczmxbcq2",
+  "widgetName": "Video1Copy"
+}
