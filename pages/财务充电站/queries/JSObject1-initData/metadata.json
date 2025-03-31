@@ -22,10 +22,10 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
+    "executeOnLoad": true,
     "fullyQualifiedName": "JSObject1.initData",
     "name": "initData",
     "pageId": "财务充电站",
-    "userSetOnLoad": false
+    "userSetOnLoad": true
   }
 }
