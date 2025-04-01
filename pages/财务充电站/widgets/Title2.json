@@ -2,7 +2,7 @@
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "2",
-  "bottomRow": 280,
+  "bottomRow": 173,
   "disableLink": false,
   "dynamicBindingPathList": [
     {
@@ -37,8 +37,8 @@
   "mobileRightColumn": 40,
   "mobileTopRow": 62,
   "needsErrorInfo": false,
-  "originalBottomRow": 157,
-  "originalTopRow": 152,
+  "originalBottomRow": 199,
+  "originalTopRow": 194,
   "overflow": "NONE",
   "parentColumnSpace": 20.25,
   "parentId": "0",
@@ -51,7 +51,7 @@
   "text": "精选课程",
   "textAlign": "CENTER",
   "textColor": "#231F20",
-  "topRow": 275,
+  "topRow": 168,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,

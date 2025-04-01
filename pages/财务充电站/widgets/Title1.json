@@ -2,7 +2,7 @@
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "2",
-  "bottomRow": 79,
+  "bottomRow": 50,
   "disableLink": false,
   "dynamicBindingPathList": [
     {
@@ -37,8 +37,8 @@
   "mobileRightColumn": 40,
   "mobileTopRow": 62,
   "needsErrorInfo": false,
-  "originalBottomRow": 36,
-  "originalTopRow": 31,
+  "originalBottomRow": 57,
+  "originalTopRow": 52,
   "overflow": "NONE",
   "parentColumnSpace": 20.25,
   "parentId": "0",
@@ -51,7 +51,7 @@
   "text": "10月课程",
   "textAlign": "CENTER",
   "textColor": "#231F20",
-  "topRow": 74,
+  "topRow": 45,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
