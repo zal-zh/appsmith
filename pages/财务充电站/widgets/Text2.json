@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 442,
+  "bottomRow": 512,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -35,8 +35,8 @@
   "mobileRightColumn": 39,
   "mobileTopRow": 719,
   "needsErrorInfo": false,
-  "originalBottomRow": 512,
-  "originalTopRow": 503,
+  "originalBottomRow": 442,
+  "originalTopRow": 433,
   "overflow": "NONE",
   "parentColumnSpace": 30.5625,
   "parentId": "0",
@@ -48,7 +48,7 @@
   "text": "业财一体化：企业价值管理战略转型",
   "textAlign": "CENTER",
   "textColor": "#231f20",
-  "topRow": 433,
+  "topRow": 503,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
