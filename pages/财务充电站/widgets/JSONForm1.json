@@ -5,7 +5,7 @@
   "borderColor": "#E0DEDE",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "1",
-  "bottomRow": 600,
+  "bottomRow": 596,
   "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
   "childStylesheet": {
     "ARRAY": {
@@ -157,8 +157,8 @@
   "mobileTopRow": 507,
   "needsErrorInfo": false,
   "onSubmit": "{{JSObject1.saveFormData();\nshowModal(Modal1.name);}}",
-  "originalBottomRow": 600,
-  "originalTopRow": 551,
+  "originalBottomRow": 471,
+  "originalTopRow": 422,
   "parentColumnSpace": 20.25,
   "parentId": "0",
   "parentRowSpace": 10,
@@ -303,7 +303,7 @@
     "iconAlign": "left"
   },
   "title": "免费试用",
-  "topRow": 551,
+  "topRow": 547,
   "type": "JSON_FORM_WIDGET",
   "useSourceData": false,
   "version": 1,

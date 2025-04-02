@@ -176,7 +176,7 @@
   "mobileRightColumn": 19,
   "mobileTopRow": 23,
   "needsErrorInfo": false,
-  "onTabSelected": "{{JSObject1.tabClick();}}",
+  "onTabSelected": "{{JSObject1.tabClick();\npostWindowMessage('', 'window', \"*\");}}",
   "originalBottomRow": 26,
   "originalTopRow": 22,
   "parentColumnSpace": 30.5625,

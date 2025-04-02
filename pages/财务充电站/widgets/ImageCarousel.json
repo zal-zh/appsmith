@@ -39,7 +39,7 @@
   "mobileTopRow": 62,
   "needsErrorInfo": false,
   "onOpenPage": "{{navigateTo(ImageCarousel.model.clickUrl, {}, 'NEW_WINDOW');}}",
-  "originalBottomRow": 45,
+  "originalBottomRow": 37,
   "originalTopRow": 8,
   "parentColumnSpace": 14.609375,
   "parentId": "0",
