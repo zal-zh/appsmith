@@ -4,6 +4,7 @@
   "borderRadius": "0px",
   "borderWidth": "0",
   "bottomRow": 814,
+  "bottomRowBeforeCollapse": 814,
   "boxShadow": "none",
   "defaultModel": "{}",
   "dynamicBindingPathList": [
@@ -22,9 +23,9 @@
   "isCanvas": false,
   "isLoading": false,
   "isSearchWildcard": true,
-  "isVisible": true,
+  "isVisible": false,
   "key": "se80stnrdl",
-  "leftColumn": 0,
+  "leftColumn": 1,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "mobileBottomRow": 92,
@@ -38,20 +39,21 @@
   "parentId": "0",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
-  "rightColumn": 64,
+  "rightColumn": 3,
   "shouldScrollContents": true,
   "srcDoc": {
-    "css": "body {\n  height: auto;\n  width: 100%;\n  margin: 0;\n  padding: 0;\n  disaplay: none;\n  margin: 0;\n  box-sizing: border-box;\n  overflow: hidden;\n}\n\n* {\n  box-sizing: border-box;\n}\n\n#app {\n  height: auto;\n  width: 100%;\n  margin: 0;\n  padding: 0;\n}",
+    "css": "body {\n  height: auto;\n  width: 100%;\n  margin: 0;\n  padding: 0;\n  disaplay: none;\n  margin: 0;\n  box-sizing: border-box;\n  overflow: hidden;\n}\n\n* {\n  box-sizing: border-box;\n}\n\n#app {\n  height: auto;\n  width: 100%;\n  margin: 0;\n  padding: 0;\n  disaplay: none;\n}",
     "html": "<div id=\"app\">\n\t<button @click=\"sendMessage()\">test</button>\n</div>\n<script src=\"//cdnjs.cloudflare.com/ajax/libs/vue/2.7.16/vue.min.js\"></script>",
-    "js": "appsmith.onReady(() => {\n  /*\n   * This handler function will get called when parent application is ready.\n   * Initialize your component here\n   * more info - https://docs.appsmith.com/reference/widgets/custom#onready\n   */\n  new Vue({\n    el: \"#app\",\n    data() {\n      return {};\n    },\n    mounted() {},\n    methods: {\n      sendMessage() {\n        window.parent.postMessage({\n          type: 'FIXED_TOP_FULL_WIDTH',\n          class: 't--widget-header'\n        }, '*');\n      }\n    }\n  });\n});"
+    "js": "appsmith.onReady(() => {\n  /*\n   * This handler function will get called when parent application is ready.\n   * Initialize your component here\n   * more info - https://docs.appsmith.com/reference/widgets/custom#onready\n   */\n  new Vue({\n    el: \"#app\",\n    data() {\n      return {};\n    },\n    mounted() {\n      window.parent.postMessage({\n        type: 'FIXED_TOP_FULL_WIDTH',\n        class: 't--widget-header'\n      }, '*');\n    },\n    methods: {\n      sendMessage() {\n        window.parent.postMessage({\n          type: 'FIXED_TOP_FULL_WIDTH',\n          class: 't--widget-header'\n        }, '*');\n      }\n    }\n  });\n});"
   },
   "theme": "{{appsmith.theme}}",
   "topRow": 810,
+  "topRowBeforeCollapse": 810,
   "type": "CUSTOM_WIDGET",
   "uncompiledSrcDoc": {
-    "css": "body {\n\theight: auto;\n\twidth: 100%;\n\tmargin: 0;\n\tpadding: 0;\n\tdisaplay: none;\n\tmargin: 0;\n\tbox-sizing: border-box;\n\toverflow: hidden;\n}\n* {\n\tbox-sizing: border-box;\n}\n#app {\n\theight: auto;\n\twidth: 100%;\n\tmargin: 0;\n\tpadding: 0;\n}",
+    "css": "body {\n\theight: auto;\n\twidth: 100%;\n\tmargin: 0;\n\tpadding: 0;\n\tdisaplay: none;\n\tmargin: 0;\n\tbox-sizing: border-box;\n\toverflow: hidden;\n}\n* {\n\tbox-sizing: border-box;\n}\n#app {\n\theight: auto;\n\twidth: 100%;\n\tmargin: 0;\n\tpadding: 0;\n\tdisaplay: none;\n}",
     "html": "<div id=\"app\">\n\t<button @click=\"sendMessage()\">test</button>\n</div>\n<script src=\"//cdnjs.cloudflare.com/ajax/libs/vue/2.7.16/vue.min.js\"></script>",
-    "js": "appsmith.onReady(() => {\n\t/*\n\t * This handler function will get called when parent application is ready.\n\t * Initialize your component here\n\t * more info - https://docs.appsmith.com/reference/widgets/custom#onready\n\t */\n\tnew Vue({\n\t\tel: \"#app\",\n\t\tdata() {\n\t\t\treturn {\n\t\t\t};\n\t\t},\n\t\tmounted() {\n\n\t\t},\n\t\tmethods: {\n\t\t\tsendMessage() {\n\t\t\t\twindow.parent.postMessage({ type: 'FIXED_TOP_FULL_WIDTH', class: 't--widget-header' }, '*');\n\t\t\t}\n\t\t},\n\t});\n});"
+    "js": "appsmith.onReady(() => {\n\t/*\n\t * This handler function will get called when parent application is ready.\n\t * Initialize your component here\n\t * more info - https://docs.appsmith.com/reference/widgets/custom#onready\n\t */\n\tnew Vue({\n\t\tel: \"#app\",\n\t\tdata() {\n\t\t\treturn {\n\t\t\t};\n\t\t},\n\t\tmounted() {\n\t\t\twindow.parent.postMessage({ type: 'FIXED_TOP_FULL_WIDTH', class: 't--widget-header' }, '*');\n\t\t},\n\t\tmethods: {\n\t\t\tsendMessage() {\n\t\t\t\twindow.parent.postMessage({ type: 'FIXED_TOP_FULL_WIDTH', class: 't--widget-header' }, '*');\n\t\t\t}\n\t\t},\n\t});\n});"
   },
   "version": 1,
   "widgetId": "hqhaadta2u",
