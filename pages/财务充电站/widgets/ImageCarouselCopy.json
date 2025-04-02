@@ -1,0 +1,59 @@
+{
+  "backgroundColor": "transparent",
+  "borderColor": "#E0DEDE",
+  "borderRadius": "0px",
+  "borderWidth": "0",
+  "bottomRow": 814,
+  "boxShadow": "none",
+  "defaultModel": "{}",
+  "dynamicBindingPathList": [
+    {
+      "key": "theme"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "backgroundColor"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "events": [],
+  "isCanvas": false,
+  "isLoading": false,
+  "isSearchWildcard": true,
+  "isVisible": true,
+  "key": "se80stnrdl",
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "mobileBottomRow": 92,
+  "mobileLeftColumn": 17,
+  "mobileRightColumn": 26,
+  "mobileTopRow": 62,
+  "needsErrorInfo": false,
+  "originalBottomRow": 814,
+  "originalTopRow": 810,
+  "parentColumnSpace": 14.609375,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 64,
+  "shouldScrollContents": true,
+  "srcDoc": {
+    "css": "body {\n  height: 0;\n  width: 0;\n  margin: 0;\n  padding: 0;\n  disaplay: none;\n  margin: 0;\n  box-sizing: border-box;\n  overflow: hidden;\n}\n\n* {\n  box-sizing: border-box;\n}\n\n#app {\n  height: 0;\n  width: 0;\n  margin: 0;\n  padding: 0;\n  disaplay: none;\n}",
+    "html": "<div id=\"app\">\n</div>\n<script src=\"//cdnjs.cloudflare.com/ajax/libs/vue/2.7.16/vue.min.js\"></script>",
+    "js": "appsmith.onReady(() => {\n  /*\n   * This handler function will get called when parent application is ready.\n   * Initialize your component here\n   * more info - https://docs.appsmith.com/reference/widgets/custom#onready\n   */\n  new Vue({\n    el: \"#app\",\n    data() {\n      return {};\n    },\n    mounted() {\n      window.postMessage({\n        type: 'FIXED_TOP_FULL_WIDTH',\n        class: 't--widget-header'\n      }, '*');\n    },\n    methods: {}\n  });\n});"
+  },
+  "theme": "{{appsmith.theme}}",
+  "topRow": 810,
+  "type": "CUSTOM_WIDGET",
+  "uncompiledSrcDoc": {
+    "css": "body {\n\theight: 0;\n\twidth: 0;\n\tmargin: 0;\n\tpadding: 0;\n\tdisaplay: none;\n\tmargin: 0;\n\tbox-sizing: border-box;\n\toverflow: hidden;\n}\n* {\n\tbox-sizing: border-box;\n}\n#app {\n\theight: 0;\n\twidth: 0;\n\tmargin: 0;\n\tpadding: 0;\n\tdisaplay: none;\n}",
+    "html": "<div id=\"app\">\n</div>\n<script src=\"//cdnjs.cloudflare.com/ajax/libs/vue/2.7.16/vue.min.js\"></script>",
+    "js": "appsmith.onReady(() => {\n\t/*\n\t * This handler function will get called when parent application is ready.\n\t * Initialize your component here\n\t * more info - https://docs.appsmith.com/reference/widgets/custom#onready\n\t */\n\tnew Vue({\n\t\tel: \"#app\",\n\t\tdata() {\n\t\t\treturn {\n\t\t\t};\n\t\t},\n\t\tmounted() {\n\t\t\twindow.postMessage({ type: 'FIXED_TOP_FULL_WIDTH', class: 't--widget-header' }, '*');\n\t\t},\n\t\tmethods: {\n\t\t},\n\t});\n});"
+  },
+  "version": 1,
+  "widgetId": "hqhaadta2u",
+  "widgetName": "ImageCarouselCopy"
+}
